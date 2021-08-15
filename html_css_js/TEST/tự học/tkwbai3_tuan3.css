@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccc;
+}
+
+.rol {
+    height: 400px;
+    position: relative;
+   background-color: white;
+   margin: 5px;
+}
+
+.card img{
+    height: 200px;
+    width: 300px; 
+    
+}
+
+.card p {
+    width: 300px;
+}
+
+.card {
+    padding: 5px 5px;
+    background-color: white;
+}
+
+.from{
+    bottom: 30px;
+    position: absolute;
+    color: brown;
+    font-size: 20px;
+}
+
+.card button{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(177, 97, 6);
+    display: block; 
+    bottom: 0px;  
+    position: absolute;
+
+}

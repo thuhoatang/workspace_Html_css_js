@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Baitap3.7</title>
+    <style>
+        body{
+            width: 700px;
+            border: black solid;
+            margin: auto;
+        }
+
+        .chooes{
+            margin-left: 20px;
+        }
+
+        #shoes{
+            width: 300px;
+            height: 30px;
+        }
+
+        .btton{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .innghien{
+            font-style: italic;
+        }
+
+        #sizemen{
+            width: 30px;
+        }
+
+        p{
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>"Pimp My Shoes" Contest Entry Form</h1>
+    <p>Want to trade in your old sneaker for a custom pair of Forcefiles? Make a case 
+        for why your shoes have got to go and you may be one of ten lucky winner.
+    </p>
+    <p>Contest Entry Information</p>
+    <form action="#" >
+        <div class="chooes">
+        <label for="name">Name:</label> <input type="text" id="name"> <br>
+        <label for="email">Email Address:</label> <input type="mail" id="email"><br>
+        <label for="phone">Telephone Number:</label> <input type="text" id="phone"><br>
+        <label for="shoes"> My shoes are SO old:</label> <br>
+        <input type="text"  id="shoes" placeholder="No more than 300 .....">
+        </div>
+    </form>
+    <h2>Design your custom Forcefields:</h2>
+    <fieldset>
+        <legend>Custom Shoes Design</legend>
+        <fieldset>
+            <legend>Color<span class="innghien">(choose one)</span>
+            </legend>
+            <div class="chooes">
+                <input type="radio" id="male" name="clor" value="male">
+                <label for="Red">Red</label><br>
+                <input type="radio" name="clor" id="blue" value="blue">
+                <label for="Blue">Blue</label><br>
+                <input type="radio" name="clor" id="black" value="black">
+                <label for="black">Black</label><br>
+                <input type="radio" name="clor" id="silver" value="silver">
+                <label for="silver">Silver</label>
+            </div>
+        </fieldset>
+        <fieldset>
+                <legend>Feature
+                    <span class="innghien">(Choose as many as you want)</span></legend>
+                <div class="chooes">
+                    <input type="checkbox" name="Feature" id="laces" value="laces">
+                    <label for="laces">Sparkley laces</label><br>
+                    <input type="checkbox" name="Feature" id="logo" value="logo">
+                    <label for="logo">Metallie logo</label><br>
+                    <input type="checkbox" name="Feature" id="heels" value="heels">
+                    <label for="heels">Light-up heels</label><br>
+                    <input type="checkbox" name="MP3" id="MP3">
+                    <label for="MP3"> MP3-enabled</label>
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Size</legend>
+            <label for="sizemen">Size refleet standard men's size</label>
+            <input type="number" name="sizemen" id="sizemen" value="sizemen">
+        </fieldset>
+    </fieldset>
+    <div class="btton">
+        <input type="submit" name="anh" value="Pimp My Shoes" />
+        <input type="reset" name="anh" value="Reset"/>
+    </div>
+</body>
+</html>
+

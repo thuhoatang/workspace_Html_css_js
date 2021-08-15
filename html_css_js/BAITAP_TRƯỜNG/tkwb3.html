@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table thiết kế Web</title>
+</head>
+<style>
+    .mau{
+        background-color: darkcyan;
+    }
+    #khung{
+        width: 900px;
+        text-align: center;
+    }
+    .cot{
+        height: 50px;
+    }
+</style>
+<body>
+    <div id="khung">
+    <h1 style="color: darkblue;">KẾT QUẢ HỌC TẬP</h1>
+   
+    <table border="1" style="color: black; text-align: center; width: 900px;">
+        <tr class="mau">
+            <th rowspan="2">Họ và tên</th>
+            <th colspan="2">Năm sinh</th>
+            <th rowspan="2">Điểm Tb</th>
+            <th rowspan="2">Xếp loại</th>
+        </tr>
+        <tr class="mau"> 
+            <th>Nam</th>
+            <th>Nữ</th>
+        </tr>
+        <tr class="cot">
+            <td>Lê Thanh Xuân</td>
+            <td></td>
+            <td>1989</td>
+            <td>8.8</td>
+            <td>Giỏi</td>
+        </tr>
+        <tr class="cot">
+            <td>Phan Thế Hạ</td>
+            <td>1988</td>
+            <td></td>
+            <td>7.5</td>
+            <td>Khá</td>
+        </tr>
+        <tr class="cot">
+            <td>Trần Hà Thu</td>
+            <td></td>
+            <td>1980</td>
+            <td>9.5</td>
+            <td>Xuất sắc</td>
+        </tr>
+        <tr class="cot">
+            <td>Lưu Thế Mạc</td>
+            <td>1991</td>
+            <td></td>
+            <td>5.5</td>
+            <td>Trung bình</td>
+        </tr>
+        <tr class="cot">
+            <td colspan="3"> <strong>Tổng số sinh viên đạt</strong></td>
+            <td colspan="2" style="text-align: right;"> <strong>3 sinh viên</strong> </td>
+        </tr>
+       </table>
+    </div>
+ 
+ 
+</body>
+</html>
